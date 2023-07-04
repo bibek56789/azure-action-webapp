@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AzureActionWebappApplication {
 	@GetMapping("/hi")
 	public String hello(){
-		return  "Hello from azure webapp.Deployment successful ";
+		return  "First GitHub Action using Azure webapps.Deployment Successful";
 	}
 
 	public static void main(String[] args) {
